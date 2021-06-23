@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url(style_reset.css);
+
+body {
+    background-color: #ebeaef;
+}
+
+div#wrap {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+main#main {
+    background-color: #fff;
+}
+
+#main > header#header {
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    /*세로 가운데 정렬(이미지가 한개라면 height랑 값을 같게 하면 됌)*/
+}
+
+/*#main>nav#gnb {
+    border: 1px solid #f80;
+}*/
+
+#gnb li.mainLi {
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#gnb li.mainLi {
+    border: 1px solid #aaa;
+    border-right: none;
+}
+
+#gnb li.mainLi:last-child {
+    border: 1px solid #aaa;
+}
+
+/*gnb메뉴가 가중치로 1:1로 됌!*/
+
+#gnb a {
+    width: 100%;
+    /*가중치 들어간게 li.mainLi이고 a에 들어간게 아니여서 100%들어가라고 넣어주기*/
+    height: 46px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 46px;
+    display: inline-block;
+    /*height만 들어가면 a가 인라인 요소라서 넣어줘야한다*/
+}
+
+#gnb a.selected {
+    color: #fff;
+    background-color: #16a840;
+}
+
+#main div#slide {
+    padding: 10px 0 34px;
+    border: 1px solid #f80;
+    margin-top: 15px;
+}
+
+#main div#shuttleFrame {
+    border: 1px solid #08f;
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#main div.arrowArea {
+    padding: 10px;
+    border: 1px solid #08f;
+    margin: 0 10px;
+}
+
+div#bbs,
+div#signboard {
+    background-color: #fff;
+}

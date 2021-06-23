@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+header#header {border: 1px solid #000;}
+main#main {border: 1px solid #000;}
+info#info {border: 1px solid #000;}
+alarm#alarm {border: 1px solid #000;}
+
+div#mainlogo {
+
+}
