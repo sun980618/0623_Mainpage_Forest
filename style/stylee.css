@@ -11,6 +11,7 @@ div#wrap {
 }
 
 main#main {
+    margin-bottom: 24px;
     background-color: #fff;
 }
 
@@ -67,8 +68,77 @@ main#main {
     margin-top: 15px;
 }
 
+#main div.arrowArea {
+    line-height: 265px;
+    padding: 10px;
+    /*  border: 1px solid #08f;*/
+    margin: 0 10px;
+}
+
 #main div#shuttleFrame {
+    /*border: 1px solid #08f;*/
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+
+    justify-content: space-between;
+}
+
+#main #shuttleFrame > div.slideItem {
+    border: 1px solid #aaa;
+}
+
+#main #shuttleFrame div.forestInfo {
+    padding: 16px;
+}
+
+#main .forestInfo h3 {
+    color: #22834d;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#main .forestInfo address {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+#main .forestInfo hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin-bottom: 6px;
+}
+
+#main .forestInfo ul {
+    /*border: 1px solid #000;*/
+
+    /* list-style-type: disc;*/
+    list-style-position: inside;
+}
+
+#main .forestInfo li {
+    font-size: 13px;
+    font-weight: bold;
+    /* border: 1px solid #f80;*/
+}
+
+div#contents {
+    border: 1px solid #000;
+}
+
+div#bbs,
+div#signboard {
+    background-color: #fff;
+}
+
+#contents #bbs {
     border: 1px solid #08f;
+    margin-right: 20px;
 
     -webkit-flex: 1px;
     -moz-flex: 1px;
@@ -77,13 +147,42 @@ main#main {
     flex: 1px;
 }
 
-#main div.arrowArea {
-    padding: 10px;
-    border: 1px solid #08f;
-    margin: 0 10px;
+#contents #signboard {
+    width: 450px;
+    padding: 34px;
+  /*  border: 1px solid #08f;*/
 }
 
-div#bbs,
-div#signboard {
-    background-color: #fff;
+#contents #signboard #signheader {
+   /* border: 1px solid #000;*/
+    margin-bottom: 20px;
 }
+
+#contents #signb0ard h2 {
+    color: #000;
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#contents #signboard div#control {
+    width: 100px;
+    text-align: center;
+   /* border: 1px solid #000;*/
+}
+
+#contents #control span {
+   /* border: 1px solid #f80;*/
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+/*#contents div#boardimg {
+    border: 1px solid #000;
+}*/
